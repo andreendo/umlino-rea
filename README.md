@@ -5,6 +5,8 @@ Projeto: Recursos Educacionais para o ensino de análise e projeto de software u
 Integrantes:
 Prof. Dr. André Takeshi Endo | Luis Fernando Galonetti | Murylo Peliçaro Lopes
 
+Projeto financiado pelo edital 32/2014 - PROGRAD - UTFPR
+
 **Descrição dos projetos**
 
 1 - ACENDER E APAGAR LED: este projeto, com nível de dificuldade 1, consiste em dois pushbuttons que acendem e apagam um LED. O botão 1 liga o LED e o botão, desliga.
