@@ -1,0 +1,7 @@
+Link para Download:
+
+https://github.com/shirriff/Arduino-IRremote
+
+Alternativo:
+
+https://www.pjrc.com/teensy/td_libs_IRremote.html

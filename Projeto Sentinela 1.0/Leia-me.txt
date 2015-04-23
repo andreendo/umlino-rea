@@ -1,0 +1,8 @@
+Este projeto consiste em um robo seguidor de linha que realiza a busca de objetos
+ao longo de seu percurso.
+
+Quando iniciado, o robô:
+ - Anda por determinado tempo;
+ - Para e faz a busca por obstáculos que estejam até 20 cm de distância;
+ - Caso haja algum obstáculo, o buzzer e o LED serão acionados;
+ - Em seguida, volta a seguir a linha e repete o processo.

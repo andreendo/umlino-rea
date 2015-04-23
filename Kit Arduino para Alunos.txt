@@ -1,0 +1,78 @@
+
+KIT ARDUINO BÁSICO
+
+--> Para os 22 kits:
+
+- 1x Arduino DUE
+- 1x Protoboard 830 pinos
+- 1x Sensor de Temperatura LM35
+- 1x Sensor de Luminosidade LDR 5mm
+- 1x Sensor de Distancia Ultrassonico HC-SR04
+- 1x Módulo Receptor InfraVermelho
+- 1x Controle Remoto
+- 1x MicroServo 9g SG90
+- 1x Display LCD 16x2 com backlight (com conector soldado)
+- 2x Buzzer
+- 2x Pastilhas Piezoelétrica
+- 2x Potenciometro de 10K
+- 5x LEDs Amarelos
+- 5x LEDs Vermelhos
+- 5x LEDs Verdes
+- 5x LED Alto Brilho
+- 5x Resistores 10K
+- 5x Resistores 1M
+- 6x PushButton
+- 15x Resistores 300
+- 10x Resistores 10k
+- 10x Resistores 1M
+- 20x fios Jumpers Premium Macho-Macho de 10 cm
+- 20x fios Jumpers Premium Macho-Macho de 20 cm
+
+
+--> Para os 11 kits:
+
+- 1x Kit Módulo Leitor RFID (Módulo Leitor RFID-RC522; Cartão Padrão S50 em branco; Tag tipo chaveiro padrão S50; Barra de pinos 1x8 lateral; Barra de pinos 1x8 frontal)
+- 1x Módulo Bluetooth RS232 HC-05
+
+
+--------------------------------------------------------------------------------------
+
+KIT ROBÔ ARDUINO (Projeto Sentinela)
+
+- 1x Kit Chassi 4 rodas (1x chassi em acrílico; 4x motores DC 3~6v; 4x rodas de borracha (7cm x 7cm x 2,6cm); 1x suporte para pilhas/bateria; 1x jogo de parafusos)
+- 1x Placa de Acrílico (100mm x 213mm x 5mm)
+- 1x Driver de Motor L298N
+- 1x Arduino
+- 1x Sensor Shield V5.0
+- 1x Suporte para Microservo
+- 1x Suporte para Sensor Ultrassonico
+- 1x Sensor de Distancia Ultrassonico HC-SR04
+- 1x Módulo Receptor InfraVermelho
+- 1x Controle Remoto
+- 1x Cabo USB
+- 1x Kit Parafusos 3 milímetros
+- 1x Carregador de bateria (AC 100 ~ 240V)
+- 1x Módulo Bluetooth RS232 HC-05
+- 3x Módulo Seguidor de Linha
+- 13x Pilares de cobre (6 x 35mm / 7 x 6mm)
+- 40x fios Jumpers Fêmea-Fêmea 20cm
+- Pilhas/Baterias Recarregáveis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

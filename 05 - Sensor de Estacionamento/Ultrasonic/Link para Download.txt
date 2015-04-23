@@ -1,0 +1,8 @@
+link para download da Biblioteca Ultrasonic:
+
+1) http://freecode.com/projects/hc-sr04-ultrasonic-arduino-library
+
+
+Instruções de instalação:
+O arquivo baixado deverá ser colocado dentro da pasta Libraries localizada dentro
+da pasta de arquivos da IDE Arduino.
