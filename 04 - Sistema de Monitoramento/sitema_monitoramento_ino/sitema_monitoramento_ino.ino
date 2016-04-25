@@ -40,7 +40,7 @@ void func()
           lcd.println("Monitoramento:"); //comando que printa a mensagem na tela do LCD
           lcd.setCursor(3,1);
           lcd.print("Temp: ");
-          lcd.print(valorTemp/20);
+          lcd.print(valorTemp/40);
           lcd.write(B11011111); //Simbolo de graus celsius
           lcd.print("C");
           aux = false;

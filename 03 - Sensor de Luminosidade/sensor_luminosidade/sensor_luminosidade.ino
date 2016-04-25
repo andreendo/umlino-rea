@@ -11,16 +11,18 @@
 const int LDR = 0; // declaração de variáveis
 const int Led = 6; 
 int ValorLido = 0; 
+int ValorInicial = 0;
 int pwm = 0;
 
 void setup() { 
   pinMode(Led, OUTPUT); 
+  ValorInicial = analogRead(LDR); 
 }
 
 void loop() { 
   ValorLido = analogRead(LDR); // verifica o valor lido no sensor de luminosidade
 
-  if (ValorLido < 400){ // valor de referência para pequena sombra sobre o sensor
+  if (ValorLido < (ValorInicial - ValorInicial/2)){ // valor de referência para pequena sombra sobre o sensor
     analogWrite(Led, pwm); 
     pwm++; 
     delay(100);

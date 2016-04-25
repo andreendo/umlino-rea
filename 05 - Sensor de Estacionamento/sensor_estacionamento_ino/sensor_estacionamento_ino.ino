@@ -5,6 +5,7 @@
  * Criado em Dezembro de 2014
  * UTFPR-CP
  * Calculo da distância pelo Ultrassonico, e uso de LEDs e Buzzer para indentificar as distancias
+ * Observação: Utilizar um resistor de aproximadamente 300ohms no buzzer, pois se o valor for muito alto, não da para ouvir o buzzer apitar.
 */
 
 #include <Ultrasonic.h>//inclusão da biblioteca do sensor ultrassônico
@@ -42,7 +43,8 @@ void loop(){ // começo do laço de repetição
     Serial.print("Distancia em CM: ");
     Serial.println(distancia);
   
-  // condições com o valor das distâncias para que realize as ações subsequentes
+  // Condições com o valor das distâncias para que realize as ações subsequentes
+  // Utilizar um resistor de aproximadamente 300ohms no buzzer, pois se o valor for muito alto, não da para ouvir o buzzer apitar.
   if(distancia <= 5){ 
       tone(buzzerPin,1000); // define o tom do som do buzzer
       digitalWrite(LedVerm, HIGH); // Liga LED Vermelho

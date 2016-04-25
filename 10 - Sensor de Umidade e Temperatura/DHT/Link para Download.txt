@@ -1,0 +1,7 @@
+link para download da Biblioteca DHT:
+
+1) https://github.com/adafruit/DHT-sensor-library
+
+Instruções de instalação:
+O arquivo baixado deverá ser colocado dentro da pasta Libraries localizada dentro
+da pasta de arquivos da IDE Arduino. Caso tenha baixado como .zip, acesse o menu: Sketch > Include Library > Add .ZIP Library, e selecione o arquivo .zip com a biblioteca DHT.
