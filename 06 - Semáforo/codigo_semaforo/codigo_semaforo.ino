@@ -68,15 +68,17 @@ void setup()
   pinMode(RED2, OUTPUT);
   pinMode(YELLOW2, OUTPUT);
   pinMode(GREEN2, OUTPUT); 
-  attachInterrupt(0, ligarDesligar, CHANGE);
-  attachInterrupt(1, piscar, CHANGE);
+  attachInterrupt(0, ligarDesligar, FALLING);
+  attachInterrupt(1, piscar, FALLING);
+  ligado = 0;
+  piscando = 0;
 }
 
 void ligarDesligar()
 {
   unsigned long interrupt_time = millis();
   // If interrupts come faster than 200ms, assume it's a bounce and ignore
-  if (interrupt_time - last_interrupt_time01 > 200) 
+  if (interrupt_time - last_interrupt_time01 > 1000) 
   {
     ligado = !ligado;
     
@@ -90,7 +92,7 @@ void piscar()
 {
   unsigned long interrupt_time = millis();
   // If interrupts come faster than 200ms, assume it's a bounce and ignore
-  if (interrupt_time - last_interrupt_time02 > 200) 
+  if (interrupt_time - last_interrupt_time02 > 1000) 
   {
     piscando = !piscando;
   }
