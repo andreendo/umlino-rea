@@ -2,12 +2,27 @@
 
 Projeto: Recursos Educacionais para o ensino de análise e projeto de software usando a plataforma Arduino
 
-Integrantes:
-Prof. Dr. André Takeshi Endo | Luis Fernando Galonetti | Murylo Peliçaro Lopes
+Coordenador:
+André Takeshi Endo
 
-Projeto financiado pelo edital 32/2014 - PROGRAD - UTFPR
+Integrantes:
+Bruno Lima | Guilherme Mattiello | Luis Galonetti | Murylo Lopes | Rhuan Costa | Andre Ortoncelli | Paulo Nardi
+
+Projeto financiado pelos editais 32/2014 e 15/2015 - PROGRAD - UTFPR
+
+Publicação:
+```
+@InProceedings{UMLino17WEI,
+    author = "Bruno Lima and Guilherme Mattiello and Luis Galonetti and Murylo Lopes and Rhuan Costa and Andre Ortoncelli and Paulo Nardi and Andre T. Endo",
+    title = "Apoio ao ensino de análise e projeto de software usando a plataforma Arduino",
+    booktitle = "XXV Workshop sobre Educação em Computação (WEI)",
+    year = "2017", 
+} 
+```
 
 **Descrição dos projetos**
+
+Os setes projetos descritos a seguir foram desenvolvidos no contexto do financiamento fornecido pelos editais PROGRAD-UTFPR. Os projetos 7 a 14 foram desenvolvidos pelos alunos participantes nas disciplinas; os integrantes das equipes são descriminados na forma de comentários no código. 
 
 1 - ACENDER E APAGAR LED: este projeto, com nível de dificuldade 1, consiste em dois pushbuttons que acendem e apagam um LED. O botão 1 liga o LED e o botão, desliga.
 
@@ -21,4 +36,4 @@ Projeto financiado pelo edital 32/2014 - PROGRAD - UTFPR
 
 6 - SEMÁFORO: este projeto, com nível de dificuldade 4, consiste em uma implementação de um semáforo ( neste caso 2 semáforos), e com o botão para pedestre. Conforme os botões são pressionados, o modo de operação dos semáforos alterna.
 
-7 - PROJETO SENTINELA: este projeto, com nível de dificuldade 5, consiste em um sistema de verificação, onde o robô realiza “varreduras” à procura de obstáculos ao seu redor. O robô pode ser ligado ou desligado pelo controle remoto. Quando ligado ele começar a seguir a linha e a cada determinado intervalo de tempo, para e faz a procura por obstáculos (caso encontre, o buzzer e o LED são acionados), em seguida volta a seguir a linha e o processo se repete, até ser desligado.
+PROJETO SENTINELA: este projeto, com nível de dificuldade 5, consiste em um sistema de verificação, onde o robô realiza “varreduras” à procura de obstáculos ao seu redor. O robô pode ser ligado ou desligado pelo controle remoto. Quando ligado ele começar a seguir a linha e a cada determinado intervalo de tempo, para e faz a procura por obstáculos (caso encontre, o buzzer e o LED são acionados), em seguida volta a seguir a linha e o processo se repete, até ser desligado.
